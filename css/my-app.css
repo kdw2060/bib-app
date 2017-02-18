@@ -1,0 +1,185 @@
+/* Tab bar icons */
+.active .tabbar-label {
+    color: #018bb9;
+}
+.tabbar .icon {
+    width: 30px;
+    height: 30px;
+    font-size: 32px;
+    line-height: 1px;
+}
+i.tabbar-bibnieuws {
+  background-image: url("../img/biblogo_grijs.png");
+}
+.active i.tabbar-bibnieuws {
+  background-image: url("../img/biblogo_blauw.png");
+}
+.active .ion-ios-search-strong{
+    color: #018bb9;
+}
+.active .ion-person{
+    color: #018bb9;
+}
+.active .ion-ios-settings-strong{
+    color: #018bb9;
+}
+.bg-red {
+    background: #c6151d;
+}
+
+/* Filterpaneel */
+.panel-left h3, .panel-left p {
+    color: #ffffff;
+}
+
+/* Header van tabs */
+.page-intro-sentence {
+    font-size: 1.5em;
+}
+.catalogus-card-header-pic .card-header {
+    height: 24vw;
+    background-size: cover;
+    background-position: center;
+    margin-top: -1.5em;
+  }
+
+
+/* Zoekboxen tab2 */
+.catalogus-switch .button {
+    background: rgba(187, 187, 187, 0.48);
+    border-color: #fff;
+    color: #4b4a48;
+    height: 40px;
+    line-height: 40px;
+}
+.catalogus-switch .button.active {
+    background: #018bb9;
+    color: #fff;
+}
+.catalogus-switch {
+    margin-top: -0.75em;
+    padding-bottom: 1.5vw;
+}
+.searchbar {
+    width: 99%;
+}
+.zoekvak {
+  box-sizing: border-box;
+  width: 100%;
+  height: 44px;
+  display: block;
+  border: 3px solid #c9c9ce;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+  font-family: inherit;
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 0 28px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2013%2013'%20enable-background%3D'new%200%200%2013%2013'%3E%3Cg%3E%3Cpath%20fill%3D'%23939398'%20d%3D'M5%2C1c2.2%2C0%2C4%2C1.8%2C4%2C4S7.2%2C9%2C5%2C9S1%2C7.2%2C1%2C5S2.8%2C1%2C5%2C1%20M5%2C0C2.2%2C0%2C0%2C2.2%2C0%2C5s2.2%2C5%2C5%2C5s5-2.2%2C5-5S7.8%2C0%2C5%2C0%20L5%2C0z'%2F%3E%3C%2Fg%3E%3Cline%20stroke%3D'%23939398'%20stroke-miterlimit%3D'10'%20x1%3D'12.6'%20y1%3D'12.6'%20x2%3D'8.2'%20y2%3D'8.2'%2F%3E%3C%2Fsvg%3E");
+  -webkit-background-size: 13px 13px;
+  background-size: 13px 13px;
+margin-left: -1em;
+}
+.zoekbutton {
+height: 44px;
+color: white;
+background-color: #4cd964;
+border: 0;
+line-height: 42px;
+font-weight: 600;
+font-size: 1.15em;
+}
+#view-2 form ul:before, #view-2 form ul:after {
+  display:none;
+}
+
+#view-2 #tab2 .content-block-title {
+   padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #c8c7cc;
+}
+
+
+/* tabs 1 (nieuws) en 3 (mijn bibliotheek) */
+.bibnieuwsheader {
+    height: 25vw;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+}
+.iframewrapper {
+    overflow: auto;
+    top: 3em;
+}
+iframe  {
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow-y: hidden;
+}
+
+
+/* tab 4 (instellingen) */
+#view-4 .content-block-title, #view-2 #tab3 .content-block-title {
+color: #018bb9;
+font-weight: 600;
+}
+
+
+/*lay out van detailscherm catalogus-item*/
+.hidden {
+    visibility: collapse;
+}
+.toonfilter{
+    visibility: visible;
+}
+#detailscherm-content .samenvatting {
+    margin-left: 10px;
+    height: 20vh;
+}
+#detailscherm-content img {
+    float: left;
+    padding-right: 5px;
+}
+#detailscherm-content .button {
+    
+}
+#detailscherm-content .aanwezig, #detailscherm-content .uitgeleend, #detailscherm-content .gereserveerd {
+    margin-left: 12%;
+}
+.aanwezig {
+    color: #069f06;
+}
+.uitgeleend  {
+    color: red;
+}
+#detailscherm-content .card-header  {
+    background: #6cb1f5;
+    color: ivory;
+    text-rendering: optimizeLegibility;
+}
+#detailscherm-content table th  {
+    background: #fff;
+    color: #414141;
+    font-style: italic;
+    text-align: left;
+    font-weight: 400;
+}
+#detailscherm-content .plaats  {
+    width: 80%;
+}
+#detailscherm-content .beschikbaarheid  {
+    width: 20%;
+}
+#detailscherm-content .reserveerbutton {
+    float: right;
+    color: #ffffff;
+    border-color: #ffffff; 
+}

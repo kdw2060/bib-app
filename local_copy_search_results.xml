@@ -1,0 +1,899 @@
+﻿<aquabrowser version="0">
+  <meta>
+    <count>754</count>
+    <page>1</page>
+    <rctx>AU3KTQ6CMBBA4SmEEONSExcuPIGpiB6Ak5hCRzIBpqU@svU8Jt6DtSfSlbp7efkEpEvIodAnwiO1hS3PfO1Kgz7YYYxTKmAxKGJIYdM6wg65V6z@W6RbujhsvEVnVYtZcUjgFedqrpL7U4j1YycAVorD9AHIAOClMybInsZIWtZUMwb5BdaZG3FDuK$Vx9@3Qek8uh4y7sUb</rctx>
+  </meta>
+  <results>
+    <result>
+      <id nativeid="8600576" ds="library/m/vlacc">|library/marc/vlacc|8600576</id>
+      <detail-page>http://zoeken.antwerpen.bibliotheek.be/detail/Griekenland/Boek/?itemid=%7clibrary%2fmarc%2fvlacc%7c8600576</detail-page>
+      <copyright xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+            Op de metadata (titelbeschrijvingen) en metacontent (covers, samenvattingen, recensies enz.) aangeboden in de API berusten intellectuele eigendomsrechten en databankrechten, zie http://www.cultuurconnect.be/diensten/bibliotheekportalen/open-data. De API mag enkel worden gebruikt in functie van de opdracht van de openbare bibliotheek.
+         </copyright>
+      <coverimage>
+        <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789401406574&amp;VLACCnr=8600576&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+      </coverimage>
+      <coverimages>
+        <coverimage>
+          <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789401406574&amp;VLACCnr=8600576&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+        </coverimage>
+      </coverimages>
+      <titles>
+        <title>Griekenland</title>
+        <short-title>Griekenland</short-title>
+        <origin-title>Grèce continentale</origin-title>
+      </titles>
+      <formats>
+        <format>book</format>
+      </formats>
+      <types>
+        <type>NonFictie</type>
+      </types>
+      <identifiers xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+        <isbn-id note="paperback">9789401406574</isbn-id>
+        <catsource-id>9789401406574</catsource-id>
+        <catsource-id>BBA000087507</catsource-id>
+        <frabl-id count="26" workid="366202EE6" key1="griekenland" key2="" material="zbbBook" language="dut">366202EE611ACA0</frabl-id>
+      </identifiers>
+      <publication>
+        <publishers>
+          <publisher year="2013" place="Tielt">Lannoo</publisher>
+        </publishers>
+        <editions>
+          <edition>1</edition>
+        </editions>
+      </publication>
+      <languages>
+        <language>dut</language>
+        <original-language>fre</original-language>
+      </languages>
+      <subjects>
+        <topical-subject>Griekenland ; reisgidsen</topical-subject>
+      </subjects>
+      <description>
+        <physical-description>528 p. : ill.</physical-description>
+      </description>
+      <summaries>
+        <summary source-name="nbd">Toeristische reisgids van Griekenland met uitzondering van de eilanden in de Egei͏̈sche Zee.</summary>
+      </summaries>
+      <notes>
+        <contents-note />
+      </notes>
+      <target-audiences>
+        <target-audience>ageAdults</target-audience>
+      </target-audiences>
+      <series>
+        <series-title>Trotter : van reizigers voor reizigers</series-title>
+      </series>
+      <custom>
+        <bibnet xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+          <siso-codes>
+            <siso-code>Griekenland 993</siso-code>
+          </siso-codes>
+          <roserank>4160</roserank>
+          <frabl count="26" workid="366202EE6" key1="griekenland" key2="" material="zbbBook" language="dut">366202EE611ACA0</frabl>
+          <holdings-count>45</holdings-count>
+          <zizo-codes>
+            <zizo-code code="LAGRGR">Griekenland</zizo-code>
+          </zizo-codes>
+          <enrich-info>
+            <match beid="c:pba:5566285" extid="|library/m/pbs|c:pba:5566285" criterion="vlaccid" rule="rest" />
+            <match beid="c:ob:2838606" extid="|library/m/oba|c:ob:2838606" criterion="vlaccid" rule="rest" />
+            <match beid="280876" extid="|library/v/antwerpen/hoogstraten|280876" criterion="vlaccid" rule="rest" />
+            <match beid="272610" extid="|library/v/antwerpen/kontich|272610" criterion="vlaccid" rule="rest" />
+            <match beid="PUTT1418421" extid="|library/m/bidoc/antwerpen|PUTT1418421" criterion="vlaccid" rule="rest" />
+          </enrich-info>
+        </bibnet>
+      </custom>
+    </result>
+    <result>
+      <id nativeid="9572371" ds="library/m/vlacc">|library/marc/vlacc|9572371</id>
+      <detail-page>http://zoeken.antwerpen.bibliotheek.be/detail/Marc-Dubin/Griekenland-Athene-en-het-vasteland/Boek/?itemid=%7clibrary%2fmarc%2fvlacc%7c9572371</detail-page>
+      <copyright xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+            Op de metadata (titelbeschrijvingen) en metacontent (covers, samenvattingen, recensies enz.) aangeboden in de API berusten intellectuele eigendomsrechten en databankrechten, zie http://www.cultuurconnect.be/diensten/bibliotheekportalen/open-data. De API mag enkel worden gebruikt in functie van de opdracht van de openbare bibliotheek.
+         </copyright>
+      <coverimage>
+        <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789000341740&amp;VLACCnr=9572371&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+      </coverimage>
+      <coverimages>
+        <coverimage>
+          <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789000341740&amp;VLACCnr=9572371&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+        </coverimage>
+      </coverimages>
+      <titles>
+        <title>Griekenland : Athene en het vasteland</title>
+        <short-title>Griekenland : Athene en het vasteland</short-title>
+        <origin-title>Greece : Athens and the mainland</origin-title>
+      </titles>
+      <authors>
+        <main-author type="aut" localized-type="Auteur" creatortype="person" main="true">Dubin, Marc</main-author>
+      </authors>
+      <formats>
+        <format>book</format>
+      </formats>
+      <types>
+        <type>NonFictie</type>
+      </types>
+      <identifiers xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+        <isbn-id note="paperback">9789000341740</isbn-id>
+        <catsource-id>9789000341740</catsource-id>
+        <catsource-id>BBA000149765</catsource-id>
+        <frabl-id count="30" workid="7F56D9BA8C" key1="greece athens and the mainland" key2="dubin,marc" material="zbbBook" language="dut">7F56D9BA8CF1ACA0</frabl-id>
+      </identifiers>
+      <publication>
+        <publishers>
+          <publisher year="2016" place="Houten">Unieboek/Het Spectrum</publisher>
+        </publishers>
+        <editions>
+          <edition>19de [herziene] druk</edition>
+        </editions>
+      </publication>
+      <languages>
+        <language>dut</language>
+        <original-language>eng</original-language>
+      </languages>
+      <subjects>
+        <topical-subject>Griekenland ; reisgidsen</topical-subject>
+      </subjects>
+      <description>
+        <physical-description>348 p. : ill. + stadsplattegrond Athene</physical-description>
+      </description>
+      <notes>
+        <contents-note />
+      </notes>
+      <target-audiences>
+        <target-audience>ageAdults</target-audience>
+      </target-audiences>
+      <series>
+        <series-title>Capitool reisgidsen</series-title>
+      </series>
+      <custom>
+        <bibnet xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+          <siso-codes>
+            <siso-code>Griekenland 995.3</siso-code>
+          </siso-codes>
+          <roserank>5610</roserank>
+          <frabl count="30" workid="7F56D9BA8C" key1="greece athens and the mainland" key2="dubin,marc" material="zbbBook" language="dut">7F56D9BA8CF1ACA0</frabl>
+          <holdings-count>62</holdings-count>
+          <zizo-codes>
+            <zizo-code code="LAGRGR">Griekenland</zizo-code>
+          </zizo-codes>
+          <enrich-info>
+            <match beid="c:pba:7339299" extid="|library/m/pbs|c:pba:7339299" criterion="vlaccid" rule="rest" />
+            <match beid="c:ob:3410106" extid="|library/m/oba|c:ob:3410106" criterion="vlaccid" rule="rest" />
+            <match beid="530812" extid="|library/v/antwerpen/heist-op-den-berg|530812" criterion="vlaccid" rule="rest" />
+            <match beid="305058" extid="|library/v/antwerpen/hoogstraten|305058" criterion="vlaccid" rule="rest" />
+            <match beid="92008" extid="|library/v/antwerpen/malle|92008" criterion="vlaccid" rule="rest" />
+          </enrich-info>
+        </bibnet>
+      </custom>
+    </result>
+    <result>
+      <id nativeid="3126814" ds="library/m/vlacc">|library/marc/vlacc|3126814</id>
+      <detail-page>http://zoeken.antwerpen.bibliotheek.be/detail/Griekenland/Boek/?itemid=%7clibrary%2fmarc%2fvlacc%7c3126814</detail-page>
+      <copyright xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+            Op de metadata (titelbeschrijvingen) en metacontent (covers, samenvattingen, recensies enz.) aangeboden in de API berusten intellectuele eigendomsrechten en databankrechten, zie http://www.cultuurconnect.be/diensten/bibliotheekportalen/open-data. De API mag enkel worden gebruikt in functie van de opdracht van de openbare bibliotheek.
+         </copyright>
+      <coverimage>
+        <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789020968675&amp;VLACCnr=3126814&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+      </coverimage>
+      <coverimages>
+        <coverimage>
+          <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789020968675&amp;VLACCnr=3126814&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+        </coverimage>
+      </coverimages>
+      <titles>
+        <title>Griekenland</title>
+        <short-title>Griekenland</short-title>
+        <origin-title> Grèce continentale</origin-title>
+      </titles>
+      <formats>
+        <format>book</format>
+      </formats>
+      <types>
+        <type>NonFictie</type>
+      </types>
+      <identifiers xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+        <isbn-id>9789020968675</isbn-id>
+        <frabl-id count="26" workid="366202EE6" key1="griekenland" key2="" material="zbbBook" language="dut">366202EE611ACA0</frabl-id>
+      </identifiers>
+      <publication>
+        <publishers>
+          <publisher year="2007" place="Tielt">Lannoo</publisher>
+        </publishers>
+      </publication>
+      <languages>
+        <language>dut</language>
+        <original-language>fre</original-language>
+      </languages>
+      <subjects>
+        <topical-subject>Griekenland ; reisgidsen</topical-subject>
+      </subjects>
+      <description>
+        <physical-description>588 p. : ill.</physical-description>
+      </description>
+      <summaries>
+        <summary source-name="nbd">Toeristische reisgids van Griekenland met uitzondering van de eilanden in de Egei͏̈sche Zee.</summary>
+      </summaries>
+      <notes>
+        <contents-note />
+      </notes>
+      <target-audiences>
+        <target-audience>ageAdults</target-audience>
+      </target-audiences>
+      <series>
+        <series-title>Trotter : van reizigers voor reizigers</series-title>
+      </series>
+      <custom>
+        <bibnet xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+          <siso-codes>
+            <siso-code>Griekenland 993</siso-code>
+          </siso-codes>
+          <roserank>2132</roserank>
+          <frabl count="26" workid="366202EE6" key1="griekenland" key2="" material="zbbBook" language="dut">366202EE611ACA0</frabl>
+          <holdings-count>20</holdings-count>
+          <zizo-codes>
+            <zizo-code code="LAGRGR">Griekenland</zizo-code>
+          </zizo-codes>
+          <enrich-info>
+            <match beid="c:pba:1151809" extid="|library/m/pbs|c:pba:1151809" criterion="vlaccid" rule="rest" />
+            <match beid="c:ob:2221762" extid="|library/m/oba|c:ob:2221762" criterion="vlaccid" rule="rest" />
+            <match beid="42300" extid="|library/v/antwerpen/vosselaar|42300" criterion="vlaccid" rule="rest" />
+          </enrich-info>
+        </bibnet>
+      </custom>
+    </result>
+    <result>
+      <id nativeid="2686388" ds="library/m/vlacc">|library/marc/vlacc|2686388</id>
+      <detail-page>http://zoeken.antwerpen.bibliotheek.be/detail/Anne-Pearson/Griekenland/Boek/?itemid=%7clibrary%2fmarc%2fvlacc%7c2686388</detail-page>
+      <copyright xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+            Op de metadata (titelbeschrijvingen) en metacontent (covers, samenvattingen, recensies enz.) aangeboden in de API berusten intellectuele eigendomsrechten en databankrechten, zie http://www.cultuurconnect.be/diensten/bibliotheekportalen/open-data. De API mag enkel worden gebruikt in functie van de opdracht van de openbare bibliotheek.
+         </copyright>
+      <coverimage>
+        <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789045900285&amp;VLACCnr=2686388&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+      </coverimage>
+      <coverimages>
+        <coverimage>
+          <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789045900285&amp;VLACCnr=2686388&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+        </coverimage>
+      </coverimages>
+      <titles>
+        <title>Griekenland</title>
+        <short-title>Griekenland</short-title>
+        <origin-title>Eyewitness guides : ancient Greece</origin-title>
+      </titles>
+      <authors>
+        <main-author type="aut" localized-type="Auteur" creatortype="person" main="true">Pearson, Anne</main-author>
+      </authors>
+      <formats>
+        <format>book</format>
+      </formats>
+      <types>
+        <type>NonFictie</type>
+      </types>
+      <identifiers xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+        <isbn-id>90-45-90028-9</isbn-id>
+        <frabl-id count="13" workid="2688C1D6E8" key1="eyewitness guides ancient greece" key2="pearson,anne" material="zbbBook" language="dut">2688C1D6E8F1ACA0</frabl-id>
+      </identifiers>
+      <publication>
+        <publishers>
+          <publisher year="2003" place="Antwerpen">Standaard</publisher>
+        </publishers>
+      </publication>
+      <languages>
+        <language>dut</language>
+        <original-language>eng</original-language>
+      </languages>
+      <subjects>
+        <topical-subject>Griekenland ; oudheid</topical-subject>
+      </subjects>
+      <description>
+        <physical-description>63 p. : ill.</physical-description>
+      </description>
+      <summaries>
+        <summary source-name="nbd">Met hulp van veel gekleurde illustraties wordt in korte hoofdstukken verteld over het leven in het oude Griekenland. Vanaf ca. 12 jaar.</summary>
+        <summary source-name="nbd">Met hulp van veel gekleurde illustraties wordt in korte hoofdstukken verteld over het leven in het oude Griekenland. Vanaf ca. 12 jaar.</summary>
+      </summaries>
+      <notes>
+        <contents-note />
+      </notes>
+      <target-audiences>
+        <target-audience>age12-14</target-audience>
+        <target-audience>ageYouth</target-audience>
+      </target-audiences>
+      <series>
+        <series-title>Ooggetuigen</series-title>
+      </series>
+      <custom>
+        <bibnet xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+          <siso-codes>
+            <siso-code>923.1</siso-code>
+          </siso-codes>
+          <roserank>1781</roserank>
+          <frabl count="13" workid="2688C1D6E8" key1="eyewitness guides ancient greece" key2="pearson,anne" material="zbbBook" language="dut">2688C1D6E8F1ACA0</frabl>
+          <holdings-count>5</holdings-count>
+          <zizo-codes>
+            <zizo-code code="GEGRI">Grieks-Romeinse tijd</zizo-code>
+          </zizo-codes>
+          <enrich-info>
+            <match beid="c:pba:7160624" extid="|library/m/pbs|c:pba:7160624" criterion="vlaccid" rule="rest" />
+            <match beid="c:ob:2049504" extid="|library/m/oba|c:ob:2049504" criterion="vlaccid" rule="rest" />
+          </enrich-info>
+        </bibnet>
+      </custom>
+    </result>
+    <result>
+      <id nativeid="3105203" ds="library/m/vlacc">|library/marc/vlacc|3105203</id>
+      <detail-page>http://zoeken.antwerpen.bibliotheek.be/detail/Daniel-Koster/Griekenland/Boek/?itemid=%7clibrary%2fmarc%2fvlacc%7c3105203</detail-page>
+      <copyright xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+            Op de metadata (titelbeschrijvingen) en metacontent (covers, samenvattingen, recensies enz.) aangeboden in de API berusten intellectuele eigendomsrechten en databankrechten, zie http://www.cultuurconnect.be/diensten/bibliotheekportalen/open-data. De API mag enkel worden gebruikt in functie van de opdracht van de openbare bibliotheek.
+         </copyright>
+      <coverimage>
+        <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789018024352&amp;VLACCnr=3105203&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+      </coverimage>
+      <coverimages>
+        <coverimage>
+          <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789018024352&amp;VLACCnr=3105203&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+        </coverimage>
+      </coverimages>
+      <titles>
+        <title>Griekenland</title>
+        <short-title>Griekenland</short-title>
+      </titles>
+      <authors>
+        <main-author type="aut" localized-type="Auteur" creatortype="person" main="true">Koster, Daniël</main-author>
+      </authors>
+      <formats>
+        <format>book</format>
+      </formats>
+      <types>
+        <type>NonFictie</type>
+      </types>
+      <identifiers xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+        <isbn-id>9789018024352</isbn-id>
+        <frabl-id count="12" workid="1C1126DD3B" key1="griekenland" key2="koster,daniel" material="zbbBook" language="dut">1C1126DD3BF1ACA0</frabl-id>
+      </identifiers>
+      <publication>
+        <publishers>
+          <publisher year="cop. 2007" place="Den Haag">ANWB</publisher>
+        </publishers>
+      </publication>
+      <languages>
+        <language>dut</language>
+      </languages>
+      <subjects>
+        <topical-subject>Griekenland ; reisgidsen</topical-subject>
+      </subjects>
+      <description>
+        <physical-description>336 p. : ill. + krt.</physical-description>
+      </description>
+      <notes>
+        <contents-note />
+      </notes>
+      <target-audiences>
+        <target-audience>ageAdults</target-audience>
+      </target-audiences>
+      <series>
+        <series-title>ANWB goud</series-title>
+      </series>
+      <custom>
+        <bibnet xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+          <siso-codes>
+            <siso-code>Griekenland 993</siso-code>
+          </siso-codes>
+          <roserank>948</roserank>
+          <frabl count="12" workid="1C1126DD3B" key1="griekenland" key2="koster,daniel" material="zbbBook" language="dut">1C1126DD3BF1ACA0</frabl>
+          <holdings-count>24</holdings-count>
+          <zizo-codes>
+            <zizo-code code="LAGRGR">Griekenland</zizo-code>
+          </zizo-codes>
+          <enrich-info>
+            <match beid="c:pba:1109149" extid="|library/m/pbs|c:pba:1109149" criterion="vlaccid" rule="rest" />
+            <match beid="c:ob:2213136" extid="|library/m/oba|c:ob:2213136" criterion="vlaccid" rule="rest" />
+            <match beid="31700" extid="|library/v/antwerpen/kontich|31700" criterion="isbnyear" rule="rest" />
+            <match beid="42294" extid="|library/v/antwerpen/vosselaar|42294" criterion="vlaccid" rule="rest" />
+          </enrich-info>
+        </bibnet>
+      </custom>
+    </result>
+    <result>
+      <id nativeid="9012979" ds="library/m/vlacc">|library/marc/vlacc|9012979</id>
+      <detail-page>http://zoeken.antwerpen.bibliotheek.be/detail/Jilly-Hunt/Griekenland/Boek/?itemid=%7clibrary%2fmarc%2fvlacc%7c9012979</detail-page>
+      <copyright xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+            Op de metadata (titelbeschrijvingen) en metacontent (covers, samenvattingen, recensies enz.) aangeboden in de API berusten intellectuele eigendomsrechten en databankrechten, zie http://www.cultuurconnect.be/diensten/bibliotheekportalen/open-data. De API mag enkel worden gebruikt in functie van de opdracht van de openbare bibliotheek.
+         </copyright>
+      <coverimage>
+        <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789461751171&amp;VLACCnr=9012979&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+      </coverimage>
+      <coverimages>
+        <coverimage>
+          <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789461751171&amp;VLACCnr=9012979&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+        </coverimage>
+      </coverimages>
+      <titles>
+        <title>Griekenland</title>
+        <short-title>Griekenland</short-title>
+        <origin-title>Greece</origin-title>
+      </titles>
+      <authors>
+        <main-author type="aut" localized-type="Auteur" creatortype="person" main="true">Hunt, Jilly</main-author>
+      </authors>
+      <formats>
+        <format>book</format>
+      </formats>
+      <types>
+        <type>NonFictie</type>
+      </types>
+      <identifiers xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+        <isbn-id note="hardback">9789461751171</isbn-id>
+        <catsource-id>9789461751171</catsource-id>
+        <catsource-id>BBA000115101</catsource-id>
+        <frabl-id count="5" workid="3E2B2E4173" key1="greece" key2="hunt,jilly" material="zbbBook" language="dut">3E2B2E4173F1ACA0</frabl-id>
+      </identifiers>
+      <publication>
+        <publishers>
+          <publisher year="cop. 2014" place="Etten-Leur">Corona</publisher>
+        </publishers>
+        <editions>
+          <edition>1</edition>
+        </editions>
+      </publication>
+      <languages>
+        <language>dut</language>
+        <original-language>eng</original-language>
+      </languages>
+      <subjects>
+        <topical-subject>Griekenland</topical-subject>
+      </subjects>
+      <description>
+        <physical-description>48 p. : ill.</physical-description>
+      </description>
+      <summaries>
+        <summary source-name="nbd">Waar woonden de Griekse goden?  Hoeveel eilanden heeft Griekenland? Kennismaking met Griekenland voor wat betreft de geschiedenis, bestuur, landschappen, cultuur en dieren. Met kleurenfoto's. Vanaf ca. 10 t/m 13 jaar.</summary>
+        <summary source-name="nbd">Waar woonden de Griekse goden?  Hoeveel eilanden heeft Griekenland? Kennismaking met Griekenland voor wat betreft de geschiedenis, bestuur, landschappen, cultuur en dieren. Met kleurenfoto's. Vanaf ca. 10 t/m 13 jaar.</summary>
+      </summaries>
+      <notes>
+        <contents-note />
+      </notes>
+      <target-audiences>
+        <target-audience>age12-14</target-audience>
+        <target-audience>ageYouth</target-audience>
+      </target-audiences>
+      <series>
+        <series-title>Land inZicht</series-title>
+      </series>
+      <custom>
+        <bibnet xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+          <siso-codes>
+            <siso-code>Griekenland 992</siso-code>
+          </siso-codes>
+          <roserank>835</roserank>
+          <frabl count="5" workid="3E2B2E4173" key1="greece" key2="hunt,jilly" material="zbbBook" language="dut">3E2B2E4173F1ACA0</frabl>
+          <holdings-count>52</holdings-count>
+          <zizo-codes>
+            <zizo-code code="LANDG">Landen G</zizo-code>
+          </zizo-codes>
+          <enrich-info>
+            <match beid="c:pba:5900698" extid="|library/m/pbs|c:pba:5900698" criterion="vlaccid" rule="rest" />
+            <match beid="c:ob:2969860" extid="|library/m/oba|c:ob:2969860" criterion="vlaccid" rule="rest" />
+            <match beid="544028" extid="|library/v/antwerpen/heist-op-den-berg|544028" criterion="vlaccid" rule="rest" />
+            <match beid="281367" extid="|library/v/antwerpen/kontich|281367" criterion="vlaccid" rule="rest" />
+          </enrich-info>
+        </bibnet>
+      </custom>
+    </result>
+    <result>
+      <id nativeid="8867936" ds="library/m/vlacc">|library/marc/vlacc|8867936</id>
+      <detail-page>http://zoeken.antwerpen.bibliotheek.be/detail/Bruno-Tersago/Groeten-uit-Griekenland/Boek/?itemid=%7clibrary%2fmarc%2fvlacc%7c8867936</detail-page>
+      <copyright xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+            Op de metadata (titelbeschrijvingen) en metacontent (covers, samenvattingen, recensies enz.) aangeboden in de API berusten intellectuele eigendomsrechten en databankrechten, zie http://www.cultuurconnect.be/diensten/bibliotheekportalen/open-data. De API mag enkel worden gebruikt in functie van de opdracht van de openbare bibliotheek.
+         </copyright>
+      <coverimage>
+        <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789491297625&amp;VLACCnr=8867936&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+      </coverimage>
+      <coverimages>
+        <coverimage>
+          <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789491297625&amp;VLACCnr=8867936&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+        </coverimage>
+      </coverimages>
+      <titles>
+        <title>Groeten uit Griekenland</title>
+        <short-title>Groeten uit Griekenland</short-title>
+      </titles>
+      <authors>
+        <main-author type="aut" localized-type="Auteur" creatortype="person" main="true">Tersago, Bruno</main-author>
+      </authors>
+      <formats>
+        <format>book</format>
+      </formats>
+      <types>
+        <type>NonFictie</type>
+      </types>
+      <identifiers xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+        <isbn-id note="paperback">9789491297625</isbn-id>
+        <catsource-id>9789491297625</catsource-id>
+        <catsource-id>BBA000107573</catsource-id>
+        <frabl-id count="10" workid="5C659D04B7" key1="groeten uit griekenland" key2="tersago,bruno" material="zbbBook" language="dut">5C659D04B7F1ACA0</frabl-id>
+      </identifiers>
+      <publication>
+        <publishers>
+          <publisher year="2015" place="Berchem">EPO</publisher>
+        </publishers>
+      </publication>
+      <languages>
+        <language>dut</language>
+      </languages>
+      <subjects>
+        <topical-subject>Griekenland ; economische politiek</topical-subject>
+        <topical-subject>Griekenland ; politiek ; 2010-</topical-subject>
+      </subjects>
+      <description>
+        <physical-description>239 p. : ill.</physical-description>
+      </description>
+      <summaries>
+        <summary source-name="nbd">In Griekenland wonende Vlaamse journalist schetst de schrijnende gevolgen van de Griekse crisis voor de Griekse bevolking.</summary>
+        <summary source-name="nbd">In Griekenland wonende Vlaamse journalist schetst de schrijnende gevolgen van de Griekse crisis voor de Griekse bevolking.</summary>
+      </summaries>
+      <notes>
+        <contents-note />
+      </notes>
+      <target-audiences>
+        <target-audience>ageAdults</target-audience>
+      </target-audiences>
+      <custom>
+        <bibnet xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+          <siso-codes>
+            <siso-code>Griekenland 945.7</siso-code>
+          </siso-codes>
+          <roserank>1880</roserank>
+          <frabl count="10" workid="5C659D04B7" key1="groeten uit griekenland" key2="tersago,bruno" material="zbbBook" language="dut">5C659D04B7F1ACA0</frabl>
+          <holdings-count>52</holdings-count>
+          <zizo-codes>
+            <zizo-code code="GELAAZ">Landen</zizo-code>
+          </zizo-codes>
+          <enrich-info>
+            <match beid="c:pba:7074179" extid="|library/m/pbs|c:pba:7074179" criterion="vlaccid" rule="rest" />
+            <match beid="c:ob:3329268" extid="|library/m/oba|c:ob:3329268" criterion="vlaccid" rule="rest" />
+            <match beid="524714" extid="|library/v/antwerpen/heist-op-den-berg|524714" criterion="vlaccid" rule="rest" />
+            <match beid="298063" extid="|library/v/antwerpen/hoogstraten|298063" criterion="vlaccid" rule="rest" />
+            <match beid="287371" extid="|library/v/antwerpen/kontich|287371" criterion="vlaccid" rule="rest" />
+            <match beid="89670" extid="|library/v/antwerpen/malle|89670" criterion="vlaccid" rule="rest" />
+            <match beid="PUTT1617428" extid="|library/m/bidoc/antwerpen|PUTT1617428" criterion="vlaccid" rule="rest" />
+          </enrich-info>
+        </bibnet>
+      </custom>
+    </result>
+    <result>
+      <id nativeid="2541348" ds="library/m/vlacc">|library/marc/vlacc|2541348</id>
+      <detail-page>http://zoeken.antwerpen.bibliotheek.be/detail/Philip-Steele/Griekenland/Boek/?itemid=%7clibrary%2fmarc%2fvlacc%7c2541348</detail-page>
+      <copyright xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+            Op de metadata (titelbeschrijvingen) en metacontent (covers, samenvattingen, recensies enz.) aangeboden in de API berusten intellectuele eigendomsrechten en databankrechten, zie http://www.cultuurconnect.be/diensten/bibliotheekportalen/open-data. De API mag enkel worden gebruikt in functie van de opdracht van de openbare bibliotheek.
+         </copyright>
+      <coverimage>
+        <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789054954767&amp;VLACCnr=2541348&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+      </coverimage>
+      <coverimages>
+        <coverimage>
+          <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789054954767&amp;VLACCnr=2541348&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+        </coverimage>
+      </coverimages>
+      <titles>
+        <title>Griekenland</title>
+        <short-title>Griekenland</short-title>
+        <origin-title>Discovering Greece</origin-title>
+      </titles>
+      <authors>
+        <main-author type="aut" localized-type="Auteur" creatortype="person" main="true">Steele, Philip</main-author>
+      </authors>
+      <formats>
+        <format>book</format>
+      </formats>
+      <types>
+        <type>NonFictie</type>
+      </types>
+      <identifiers xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+        <isbn-id>90-5495-476-0</isbn-id>
+        <frabl-id count="4" workid="316171EAD8" key1="discovering greece" key2="steele,philip" material="zbbBook" language="dut">316171EAD8F1ACA0</frabl-id>
+      </identifiers>
+      <publication>
+        <publishers>
+          <publisher year="cop. 2002" place="Harmelen">Corona</publisher>
+        </publishers>
+      </publication>
+      <languages>
+        <language>dut</language>
+        <original-language>eng</original-language>
+      </languages>
+      <subjects>
+        <topical-subject>Griekenland</topical-subject>
+      </subjects>
+      <description>
+        <physical-description>32 p. : ill.</physical-description>
+      </description>
+      <summaries>
+        <summary source-name="nbd">In korte hoofdstukken met kleurenfoto's wordt informatie gegeven over Griekenland. Vanaf ca. 10 jaar.</summary>
+      </summaries>
+      <notes>
+        <contents-note />
+      </notes>
+      <target-audiences>
+        <target-audience>age9-11</target-audience>
+        <target-audience>ageYouth</target-audience>
+      </target-audiences>
+      <series>
+        <series-title>Met het oog op (Corona)</series-title>
+      </series>
+      <custom>
+        <bibnet xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+          <siso-codes>
+            <siso-code>Griekenland 992</siso-code>
+          </siso-codes>
+          <roserank>680</roserank>
+          <frabl count="4" workid="316171EAD8" key1="discovering greece" key2="steele,philip" material="zbbBook" language="dut">316171EAD8F1ACA0</frabl>
+          <holdings-count>46</holdings-count>
+          <zizo-codes>
+            <zizo-code code="LANDG">Landen G</zizo-code>
+          </zizo-codes>
+          <enrich-info>
+            <match beid="c:pba:657489" extid="|library/m/pbs|c:pba:657489" criterion="vlaccid" rule="rest" />
+            <match beid="c:ob:1410284" extid="|library/m/oba|c:ob:1410284" criterion="vlaccid" rule="rest" />
+            <match beid="71055" extid="|library/v/antwerpen/hoogstraten|71055" criterion="isbnyear" rule="rest" />
+            <match beid="31680" extid="|library/v/antwerpen/vosselaar|31680" criterion="isbnyear" rule="rest" />
+          </enrich-info>
+        </bibnet>
+      </custom>
+    </result>
+    <result>
+      <id nativeid="3138516" ds="library/m/vlacc">|library/marc/vlacc|3138516</id>
+      <detail-page>http://zoeken.antwerpen.bibliotheek.be/detail/Tamsin-Osler/Griekenland/Boek/?itemid=%7clibrary%2fmarc%2fvlacc%7c3138516</detail-page>
+      <copyright xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+            Op de metadata (titelbeschrijvingen) en metacontent (covers, samenvattingen, recensies enz.) aangeboden in de API berusten intellectuele eigendomsrechten en databankrechten, zie http://www.cultuurconnect.be/diensten/bibliotheekportalen/open-data. De API mag enkel worden gebruikt in functie van de opdracht van de openbare bibliotheek.
+         </copyright>
+      <coverimage>
+        <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789055660797&amp;VLACCnr=3138516&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+      </coverimage>
+      <coverimages>
+        <coverimage>
+          <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9789055660797&amp;VLACCnr=3138516&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+        </coverimage>
+      </coverimages>
+      <titles>
+        <title>Griekenland</title>
+        <short-title>Griekenland</short-title>
+        <origin-title>The changing face of Greece</origin-title>
+      </titles>
+      <authors>
+        <main-author type="aut" localized-type="Auteur" creatortype="person" main="true">Osler, Tamsin</main-author>
+        <author type="pht" localized-type="Fotograaf" creatortype="person">Fairclough, Chris</author>
+      </authors>
+      <formats>
+        <format>book</format>
+      </formats>
+      <types>
+        <type>NonFictie</type>
+      </types>
+      <identifiers xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+        <isbn-id>9789055660797</isbn-id>
+        <frabl-id count="4" workid="7F67AA8681" key1="the changing face of greece" key2="osler,tamsin" material="zbbBook" language="dut">7F67AA8681F1ACA0</frabl-id>
+      </identifiers>
+      <publication>
+        <publishers>
+          <publisher year="cop. 2007" place="Etten-Leur">Corona</publisher>
+        </publishers>
+      </publication>
+      <languages>
+        <language>dut</language>
+        <original-language>eng</original-language>
+      </languages>
+      <subjects>
+        <topical-subject>Griekenland</topical-subject>
+      </subjects>
+      <description>
+        <physical-description>48 p. : ill.</physical-description>
+      </description>
+      <summaries>
+        <summary source-name="nbd">Overzicht van de veranderingen die plaatsvonden in Griekenland aan het begin van de 21e eeuw. Met informatie over o.a. de geschiedenis, economie en milieu en interviews en kleurenfoto's. Vanaf ca. 11 jaar.</summary>
+      </summaries>
+      <notes>
+        <contents-note />
+      </notes>
+      <target-audiences>
+        <target-audience>age12-14</target-audience>
+        <target-audience>ageYouth</target-audience>
+      </target-audiences>
+      <series>
+        <series-title>Het moderne...</series-title>
+      </series>
+      <custom>
+        <bibnet xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+          <siso-codes>
+            <siso-code>Griekenland 992</siso-code>
+          </siso-codes>
+          <roserank>652</roserank>
+          <frabl count="4" workid="7F67AA8681" key1="the changing face of greece" key2="osler,tamsin" material="zbbBook" language="dut">7F67AA8681F1ACA0</frabl>
+          <holdings-count>53</holdings-count>
+          <zizo-codes>
+            <zizo-code code="LANDG">Landen G</zizo-code>
+          </zizo-codes>
+          <enrich-info>
+            <match beid="c:pba:1410257" extid="|library/m/pbs|c:pba:1410257" criterion="vlaccid" rule="rest" />
+            <match beid="c:ob:2226327" extid="|library/m/oba|c:ob:2226327" criterion="vlaccid" rule="rest" />
+            <match beid="153984" extid="|library/v/antwerpen/heist-op-den-berg|153984" criterion="isbnyear" rule="rest" />
+            <match beid="237840" extid="|library/v/antwerpen/kontich|237840" criterion="vlaccid" rule="rest" />
+            <match beid="PUTT1490039" extid="|library/m/bidoc/antwerpen|PUTT1490039" criterion="vlaccid" rule="rest" />
+          </enrich-info>
+        </bibnet>
+      </custom>
+    </result>
+    <result>
+      <id nativeid="2820994" ds="library/m/vlacc">|library/marc/vlacc|2820994</id>
+      <detail-page>http://zoeken.antwerpen.bibliotheek.be/detail/Henri-Stierlin/Griekenland-van-Mycene-tot-Parthenon/Boek/?itemid=%7clibrary%2fmarc%2fvlacc%7c2820994</detail-page>
+      <copyright xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+            Op de metadata (titelbeschrijvingen) en metacontent (covers, samenvattingen, recensies enz.) aangeboden in de API berusten intellectuele eigendomsrechten en databankrechten, zie http://www.cultuurconnect.be/diensten/bibliotheekportalen/open-data. De API mag enkel worden gebruikt in functie van de opdracht van de openbare bibliotheek.
+         </copyright>
+      <coverimage>
+        <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9783822812273&amp;VLACCnr=2820994&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+      </coverimage>
+      <coverimages>
+        <coverimage>
+          <url>http://webservices.bibliotheek.be/index.php?func=cover&amp;ISBN=9783822812273&amp;VLACCnr=2820994&amp;CDR=&amp;EAN=&amp;ISMN=&amp;coversize=small</url>
+        </coverimage>
+      </coverimages>
+      <titles>
+        <title>Griekenland : van Mycene tot Parthenon</title>
+        <short-title>Griekenland : van Mycene tot Parthenon</short-title>
+      </titles>
+      <authors>
+        <main-author type="aut" localized-type="Auteur" creatortype="person" main="true">Stierlin, Henri</main-author>
+      </authors>
+      <formats>
+        <format>book</format>
+      </formats>
+      <types>
+        <type>NonFictie</type>
+      </types>
+      <identifiers xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+        <isbn-id>3-8228-1227-7</isbn-id>
+        <frabl-id count="10" workid="3A00CC1965" key1="griekenland van mycene tot parthenon" key2="stierlin,henri" material="zbbBook" language="dut">3A00CC1965F1ACA0</frabl-id>
+      </identifiers>
+      <publication>
+        <publishers>
+          <publisher year="cop. 2004" place="Köln">Taschen</publisher>
+        </publishers>
+      </publication>
+      <languages>
+        <language>dut</language>
+      </languages>
+      <subjects>
+        <topical-subject>Architectuur ; Griekenland ; oudheid</topical-subject>
+      </subjects>
+      <description>
+        <physical-description>235 p. : ill.</physical-description>
+      </description>
+      <summaries>
+        <summary source-name="nbd">Geschiedenis van de Griekse architectuur van ca. 1600 tot 300 v. Chr.</summary>
+        <summary source-name="nbd">Geschiedenis van de Griekse architectuur van ca. 1600 tot 300 v. Chr.</summary>
+      </summaries>
+      <notes>
+        <note>Vert. uit het Duits</note>
+        <contents-note />
+      </notes>
+      <target-audiences>
+        <target-audience>ageAdults</target-audience>
+      </target-audiences>
+      <custom>
+        <bibnet xmlns:bibnet="http://www.medialab.nl/schemas/aquabrowser/library/customers/bibnet">
+          <siso-codes>
+            <siso-code>714.4</siso-code>
+          </siso-codes>
+          <roserank>610</roserank>
+          <frabl count="10" workid="3A00CC1965" key1="griekenland van mycene tot parthenon" key2="stierlin,henri" material="zbbBook" language="dut">3A00CC1965F1ACA0</frabl>
+          <holdings-count>2</holdings-count>
+          <enrich-info>
+            <match beid="c:ob:2101951" extid="|library/m/oba|c:ob:2101951" criterion="vlaccid" rule="rest" />
+          </enrich-info>
+        </bibnet>
+      </custom>
+    </result>
+  </results>
+  <facets>
+    <facet id="Format">
+      <value count="413" id="book" />
+      <value count="206" id="cd" />
+      <value count="107" id="article" />
+      <value count="37" id="dvdvideo" />
+      <value count="19" id="comic" />
+    </facet>
+    <facet id="Type">
+      <value count="404" id="NonFictie" />
+      <value count="211" id="Muziek" />
+      <value count="171" id="Fictie" />
+      <value count="33" id="Film" />
+    </facet>
+    <facet id="Language">
+      <value count="493" id="dut" />
+      <value count="70" id="eng" />
+      <value count="13" id="fre" />
+      <value count="6" id="gre" />
+      <value count="5" id="mul" />
+    </facet>
+    <facet id="pubYearRange">
+      <value count="211" id="1_2010" />
+      <value count="267" id="2_2000" />
+      <value count="242" id="3_1990" />
+      <value count="42" id="4_1980" />
+      <value count="2" id="5_1970" />
+      <value count="1" id="5_OlderThan50" />
+    </facet>
+    <facet id="Doelgroep">
+      <value count="483" id="ageAdults" />
+      <value count="89" id="ageYouth" />
+    </facet>
+    <facet id="Topic">
+      <value count="422" id="Griekenland" />
+      <value count="249" id="oudheid" />
+      <value count="64" id="reisgidsen" />
+      <value count="33" id="Romeinse Rijk" />
+      <value count="21" id="Filosofie" />
+    </facet>
+    <facet id="Genre">
+      <value count="171" id="Griekenland" />
+      <value count="30" id="Romans" />
+      <value count="19" id="Historische literatuur" />
+      <value count="19" id="Stripverhalen" />
+      <value count="15" id="Speelfilms" />
+    </facet>
+    <facet id="Bekroning">
+      <value count="1" id="Boekenleeuw" />
+      <value count="1" id="Orange Prize for Fiction" />
+    </facet>
+    <facet id="Auteur">
+      <value count="7" id="Petros Markaris" />
+      <value count="7" id="Marc Dubin" />
+      <value count="6" id="Moni Nilsson-Brännström" />
+      <value count="6" id="Jacques Martin" />
+      <value count="5" id="Pierre de Broche" />
+    </facet>
+    <facet id="Componist">
+      <value count="15" id="Mikis Theodorakis 1925" />
+      <value count="12" id="Mikis Theodorakis 1925-1925-" />
+      <value count="5" id="Manos Hadjidakis 1925-1994" />
+      <value count="4" id="Eleni Karaindrou" />
+      <value count="4" id="Anoniem" />
+    </facet>
+    <facet id="Uitvoerder">
+      <value count="24" id="Griekenland" />
+      <value count="18" id="Nana Mouskouri" />
+      <value count="15" id="Mikis Theodorakis 1925" />
+      <value count="13" id="Mikis Theodorakis 1925-1925-" />
+      <value count="10" id="George Dalaras" />
+    </facet>
+    <facet id="Series">
+      <value count="6" id="Trotter van reizigers voor reizigers" />
+      <value count="5" id="Groene gidsen Michelin" />
+      <value count="5" id="Capitool compact" />
+    </facet>
+    <facet id="Uitgever">
+      <value count="31" id="FM" />
+      <value count="14" id="Bakker" />
+      <value count="14" id="Lannoo" />
+      <value count="13" id="Lyra" />
+      <value count="12" id="Corona" />
+    </facet>
+    <facet id="Recensie">
+      <value count="367" id="NBD Biblion" />
+      <value count="74" id="Leeswolf" />
+      <value count="22" id="Leeswelp" />
+      <value count="1" id="Uitgelicht" />
+      <value count="1" id="Pluizer" />
+      <value count="1" id="De Standaard" />
+    </facet>
+  </facets>
+  <sort>
+    <option id="relevance" active="true" />
+    <option id="year" />
+    <option id="title" />
+    <option id="author" />
+  </sort>
+</aquabrowser>

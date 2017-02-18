@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.feeds.min.css">
+    <link rel="stylesheet" href="css/ionicons.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+        <h3>Filter de zoekresultaten</h3>
+          <p>Hier komt een controlepaneel met filters in een volgende versie van de app.</p>
+      </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+      <div class="content-block">
+        <p>Right panel content goes here</p>
+      </div>
+    </div>
+    <!--  to link to these later on, use: <a href="#" class="open-panel">left</a> and  <a href="#" data-panel="right" class="open-panel">right</a>
+    --> 
+    <!-- Views, and they are tabs-->
+    <!-- We need to set "toolbar-through" class on it to keep space for our tab bar-->
+    <div class="views tabs toolbar-through">
+      <!-- Your first view, it is also a .tab and should have "active" class to make it visible by default-->
+      <div id="view-1" class="view view-main tab active">
+        <!-- Pages-->
+        <div class="pages">
+          <!-- Page, data-page contains page name-->
+            <div class="navbar">
+          <div class="navbar-inner">
+            <div class="center sliding paginatitel">Bibnieuws </div>
+          </div>
+        </div>
+          <div data-page="index-1" class="page navbar-through">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+               <div class="card catalogus-card-header-pic">
+                   <div style="background-image:url(img/lib_bg.png)" valign="bottom" class="bibnieuwsheader"></div>
+                </div>
+              <div class="content-block">
+                <p class="page-intro-sentence">Nieuws over onze collectie en onze activiteiten.</p>
+              </div>
+              <div class="list-block nieuwsfeed"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Second view (for second wrap)-->
+      <div id="view-2" class="view tab">
+        <!-- We can make with view with navigation, let's add Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="center sliding paginatitel">Zoek in de catalogus van </div>
+          </div>
+        </div>
+        <div class="pages navbar-through">
+          <div data-page="index-2" class="page">
+            <div class="page-content infinite-scroll">
+              <div class="content-block">
+                <div class="card catalogus-card-header-pic">
+                    <div style="background-image:url(img/bibnieuws_bg.png)" valign="bottom" class="card-header">
+                    </div>
+                    <div class="card-content">
+                      <div class="card-content-inner">
+                       <p class="page-intro-sentence">Wat wil je opzoeken?</p>
+                        <div class="buttons-row catalogus-switch col-90">
+                          <a href="#tab1" class="tab-link active button">Boeken, tijdschriften,  films, muziek</a>
+                          <a href="#tab2" class="tab-link button">Nieuwste aanwinsten</a>
+                        </div>
+                        <div class="tabs">
+                                <div id="tab1" class="tab active">
+<!-- basis versie zoekvak -->
+                                    <div class="content-block">
+                                    <div class="row no-gutter">
+                                        <div class="item-input col-80">
+                                        <input name="ablzoekvak" type="text" placeholder="Typ je zoekvraag" class="zoekvak">
+                                        </div>
+                                        <div class="col-20">
+                                            <a href="#" class="button zoekbutton" onclick="searchabl(1)">Zoek</a>
+                                        </div>
+                                      </div>
+                                    </div>
+
+<!--Zoekvak met autocomplete, voorlopig enkel ter test-->
+<!--
+                                    <form class="searchbar">
+                                    <div class="searchbar-input">
+                                    <input type="search" placeholder="Typ je zoekvraag">
+                                    <a href="#" class="searchbar-clear"></a>
+                                    </div>
+                                    <a href="#" class="searchbar-cancel">Annuleer</a>
+                                    </form>
+-->
+                                </div>
+                                <div id="tab2" class="tab">
+                                  <div class="content-block">
+                                      <div class="content-block-title">Materiaal</div>
+                                       <div class="list-block">
+                                         <form>
+                                          <ul>
+                                            <div class="row">
+                                            <li class="col-33">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_material" value="" checked="checked">
+                                                <div class="item-inner">
+                                                  <div class="item-title">Alle materialen</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li class="col-33">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_material" value="fictie">
+                                                <div class="item-inner">
+                                                  <div class="item-title">Boeken - fictie</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li class="col-33">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_material" value="non-fictie">
+                                                <div class="item-inner">
+                                                  <div class="item-title">Boeken - non-fictie</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li></li>
+                                            </div>
+                                            <div class="row">
+                                            <li class="col-33">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_material" value="strips">
+                                                <div class="item-inner">
+                                                  <div class="item-title">Strips</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li class="col-33">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_material" value="muziek">
+                                                <div class="item-inner">
+                                                  <div class="item-title">Muziek</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li class="col-33">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_material" value="dvd-video">
+                                                <div class="item-inner">
+                                                  <div class="item-title">Film & TV</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li></li>
+                                            </div>
+                                              
+                                            <div class="content-block-title">Nieuw sinds:</div>       
+                                            <div class="row">
+                                            <li class="col-25">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_periode" value="7d">
+                                                <div class="item-inner">
+                                                  <div class="item-title">1 week</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li class="col-25">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_periode" value="14d">
+                                                <div class="item-inner">
+                                                  <div class="item-title">2 weken</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li class="col-25">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_periode" value="30d" checked="checked">
+                                                <div class="item-inner">
+                                                  <div class="item-title">1 maand</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li class="col-25">
+                                                <label class="label-radio item-content">
+                                                <input type="radio" name="radio_periode" value="365d">
+                                                <div class="item-inner">
+                                                  <div class="item-title">1 jaar</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li></li>
+                                            </div>
+
+                                            <div class="content-block-title">Leeftijdscategorie:</div>
+                                            <div class="row">
+                                            <li class="col-33">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_age" value="all" checked="checked">
+                                                <div class="item-inner">
+                                                  <div class="item-title">Alle leeftijden</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li class="col-33">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_age" value="volwassenen">
+                                                <div class="item-inner">
+                                                  <div class="item-title">Volwassenen</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li class="col-33">
+                                              <label class="label-radio item-content">
+                                                <input type="radio" name="radio_age" value="jeugd">
+                                                <div class="item-inner">
+                                                  <div class="item-title">Jeugd</div>
+                                                </div>
+                                              </label>
+                                            </li>
+                                            <li></li>
+                                            </div>
+                                            <div class="row"><li></li></div> 
+                                             </ul>
+                                          <br><input type="button" class="button" onclick="ToonAanwinsten(1)" value="Toon aanwinsten">
+                                          </form>
+                                        </div>                       
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list-block media-list inset">
+                        <p class="hidden" id="filter"><a href='#' class='open-panel'>Filter de zoekresultaten</a></p><ul id="doeldiv">
+                        </ul>
+                    </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="view-3" class="view tab">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="center sliding">Mijn Bibliotheek: verlengen, lijsten beheren, ...</div>
+          </div>
+        </div>
+          <div class="pages">
+          <div data-page="index-3" class="page">
+            <div class="page-content iframewrapper">
+                <iframe src="https://mijn.bibliotheek.be/"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="view-4" class="view tab">
+        <div class="pages navbar-fixed">
+          <div data-page="index-4" class="page">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center">Settings</div>
+              </div>
+            </div>
+            <div class="page-content">
+                                <div class="content-block-title">Kies je voorkeurbib of -provincie</div>
+                <div class="content-block">
+                <p>Je keuze bepaalt welk bibnieuws en welke catalogus getoond worden.</p>
+                </div>
+                <form id="formVoorkeurbib" class="list-block store-data">
+                <ul>
+                <!-- Smart select item -->
+                <li>
+                <a href="#" class="item-link smart-select" data-searchbar="true" data-searchbar-placeholder="Zoek een gemeente" data-back-on-select="true">
+                <!-- select -->
+                <select name="Bibliotheken">
+                    <option value="provincieantwerpen" selected>Provincie Antwerpen</option>
+                    <option value="bruno">Brussels Gewest</option>
+                    <option value="limburg">Provincie Limburg</option><!-- alt homepageurl voor maken-->
+                    <option value="ovinob">Provincie Oost-Vlaanderen</option>
+                    <option value="vlaamsbrabant">Provincie Vlaams-Brabant</option>
+                    <option value="winob">Provincie West-Vlaanderen</option>
+                    <option value="aalst">Aalst</option>
+                    <option value="aalter">Aalter</option>
+                    <option value="aartselaar">Aartselaar</option>
+                    <option value="affligem">Affligem</option>
+                    <option value="alken">Alken</option>
+                    <option value="anderlecht">Anderlecht</option>
+                    <option value="antwerpen">Antwerpen</option>
+                    <option value="anzegem">Anzegem</option>
+                    <option value="arendonk">Arendonk</option>
+                    <option value="as">As</option>
+                    <option value="assenede">Assenede</option>
+                    <option value="avelgem">Avelgem</option>
+                    <option value="balen">Balen</option>
+                    <option value="beernem">Beernem</option>
+                    <option value="beerse">Beerse</option>
+                    <option value="bekkevoort">Bekkevoort</option> 
+                    <option value="beringen">Beringen</option>
+                    <option value="berlaar">Berlaar</option>
+                    <option value="berlare">Berlare</option>
+                    <option value="bertem">Bertem</option> 
+                    <option value="beveren">Beveren</option>
+                    <option value="bierbeek">Bierbeek</option> <!-- alt homepageurl voor maken-->
+                    <option value="blankenberge">Blankenberge</option>
+                    <option value="bocholt">Bocholt</option>
+                    <option value="boechout">Boechout</option>
+                    <option value="bonheiden">Bonheiden</option>
+                    <option value="boom">Boom</option>
+                    <option value="borgloon">Borgloon</option>
+                    <option value="bornem">Bornem</option>
+                    <option value="borsbeek">Borsbeek</option>
+                    <option value="brakel">Brakel</option>
+                    <option value="brasschaat">Brasschaat</option>
+                    <option value="brecht">Brecht</option>
+                    <option value="bredene">Bredene</option>
+                    <option value="bree">Bree</option>
+                    <!--<option value="brugge">Brugge</option> alt homepage url voor maken -->
+                    <option value="muntpunt">Brussel</option>
+                    <option value="brussel">Brussel</option>
+                    <option value="buggenhout">Buggenhout</option>
+                    <option value="dehaan">De Haan</option>
+                    <option value="de panne">De Panne</option>
+                    <option value="de pinte">De Pinte</option>
+                    <option value="deinze">Deinze</option>
+                    <option value="denderleeuw">Denderleeuw</option>
+                    <option value="dendermonde">Dendermonde</option>
+                    <option value="dentergem">Dentergem</option>
+                    <option value="dessel">Dessel</option>
+                    <option value="destelbergen">Destelbergen</option>
+                    <option value="diepenbeek">Diepenbeek</option>
+                    <option value="diest">Diest</option> <!-- alt homepageurl voor maken-->
+                    <option value="diksmuide">Diksmuide</option>
+                    <option value="dilsen-stokkem">Dilsen-Stokkem</option>
+                    <option value="edegem">Edegem</option>
+                    <option value="eeklo">Eeklo</option>
+                    <option value="elsene">Elsene</option>
+                    <option value="erpe-mere">Erpe-Mere</option>
+                    <option value="essen">Essen</option>
+                    <option value="etterbeek">Etterbeek</option>
+                    <option value="evere">Evere</option>
+                    <option value="evergem">Evergem</option>
+                    <option value="gavere">Gavere</option>
+                    <option value="geel">Geel</option>
+                    <option value="geetbets">Geetbets</option> <!-- alt homepageurl voor maken + alt catalogus url zonder header-->
+                    <option value="gent">Gent</option> <!-- alt homepageurl voor maken-->
+                    <option value="geraardsbergen">Geraardsbergen</option>
+                    <option value="gingelom">Gingelom</option>
+                    <option value="gistel">Gistel</option>
+                    <option value="gooik">Gooik</option><!-- alt homepageurl voor maken-->
+                    <option value="grimbergen">Grimbergen</option> <!-- alt homepageurl voor maken-->
+                    <option value="grobbendonk">Grobbendonk</option>
+                    <option value="haaltert">Haaltert</option>
+                    <option value="halen">Halen</option>
+                    <option value="halle">Halle</option>
+                    <option value="ham">Ham</option>
+                    <option value="hamme">Hamme</option>
+                    <option value="hamont-achel">Hamont-Achel</option>
+                    <option value="harelbeke">Harelbeke</option>
+                    <option value="hasseltsbh">Hasselt (stedelijke bib)</option>
+                    <option value="hasseltpbl">Hasselt (PBL)</option>
+                    <option value="hechtel-eksel">Hechtel-Eksel</option>
+                    <option value="heers">Heers</option>
+                    <option value="heist-op-den-berg">Heist-Op-Den-Berg</option>
+                    <option value="ivebic">Hemiksem-Schelle</option>
+                    <option value="herentals">Herentals</option>
+                    <option value="herenthout">Herenthout</option>
+                    <option value="herk-de-stad">Herk-De-Stad</option>
+                    <option value="herselt">Herselt</option>
+                    <option value="herzele">Herzele</option>
+                    <option value="heusden">Heusden</option>
+                    <option value="hoeilaart">Hoeilaart</option><!-- alt homepageurl voor maken-->
+                    <option value="hoeselt">Hoeselt</option>
+                    <option value="hooglede">Hooglede</option>
+                    <option value="hoogstraten">Hoogstraten</option>
+                    <option value="houthulst">Houthulst</option>
+                    <option value="hove">Hove</option>
+                    <option value="hulshout">Hulshout</option>
+                    <option value="ichtegem">Ichtegem</option>
+                    <option value="ieper">Ieper</option>
+                    <option value="ingelmunster">Ingelmunster</option>
+                    <option value="izegem">Izegem</option>
+                    <option value="jabbeke">Jabbeke</option>
+                    <option value="jette">Jette</option>
+                    <option value="kapellen">Kapellen</option>
+                    <option value="kaprijke">Kaprijke</option>
+                    <option value="kasterlee">Kasterlee</option>
+                    <option value="kinrooi">Kinrooi</option>
+                    <option value="kluisbergen">Kluisbergen</option>
+                    <option value="knesselare">Knesselare</option>
+                    <option value="knokke-heist">Knokke-Heist</option>
+                    <option value="koekelberg">Koekelberg</option>
+                    <option value="koksijde">Koksijde</option>
+                    <option value="kontich">Kontich</option>
+                    <option value="kortemark">Kortemark</option>
+                    <option value="kortenaken">Kortenaken</option>
+                    <option value="kortenberg">Kortenberg</option><!-- alt homepageurl voor maken  http://bibliotheekkortenberg.com/-->
+                    <option value="kortessem">Kortessem</option>
+                    <option value="kortrijk">Kortrijk</option>
+                    <option value="kruibeke">Kruibeke</option>
+                    <option value="kruishoutem">Kruishoutem</option>
+                    <option value="laakdal">Laakdal</option>
+                    <option value="laarne">Laarne</option>
+                    <option value="lanaken">Lanaken</option>
+                    <option value="landegem">Landegem</option>
+                    <option value="langemark-poelkapelle">Langemark-Poelkapelle</option>
+                    <option value="lebbeke">Lebbeke</option>
+                    <option value="lede">Lede</option>
+                    <option value="ledegem">Ledegem</option>
+                    <option value="leopoldsburg">Leopoldsburg</option>
+                    <option value="lier">Lier</option>
+                    <option value="lierde">Lierde</option>
+                    <option value="lille">Lille</option>
+                    <option value="lint">Lint</option>
+                    <option value="lochristi">Lochristi</option>
+                    <option value="lokeren">Lokeren</option>
+                    <option value="lommel">Lommel</option>
+                    <option value="lovendegem">Lovendegem</option>
+                    <option value="lummen">Lummen</option>
+                    <option value="maarkedal">Maarkedal</option>
+                    <option value="maaseik">Maaseik</option>
+                    <option value="maasmechelen">Maasmechelen</option>
+                    <option value="machelen">Machelen</option><!-- alt homepageurl voor maken-->
+                    <option value="maldegem">Maldegem</option>
+                    <option value="mechelen">Mechelen</option>
+                    <option value="meerhout">Meerhout</option>
+                    <option value="meeuwen-gruitrode">Meeuwen-Gruitrode</option>
+                    <option value="meise">Meise</option><!-- alt homepageurl voor maken  www.bibmeise.be-->
+                    <option value="melle">Melle</option>
+                    <option value="menen">Menen</option>
+                    <option value="merchtem">Merchtem</option><!-- alt homepageurl voor maken-->
+                    <option value="merelbeke">Merelbeke</option>
+                    <option value="merksplas">Merksplas</option>
+                    <option value="mesen">Mesen</option>
+                    <option value="meulebeke">Meulebeke</option>
+                    <option value="middelkerke">Middelkerke</option>
+                    <option value="moerbeke">Moerbeke</option>
+                    <option value="mol">Mol</option>
+                    <option value="moorslede">Moorslede</option>
+                    <option value="mortsel">Mortsel</option>
+                    <option value="nazareth">Nazareth</option>
+                    <option value="neerpelt">Neerpelt</option>
+                    <option value="niel">Niel</option>
+                    <option value="nieuwpoort">Nieuwpoort</option>
+                    <option value="nijlen">Nijlen</option>
+                    <option value="ninove">Ninove</option>
+                    <option value="olen">Olen</option>
+                    <option value="oosterzele">Oosterzele</option>
+                    <option value="oostkamp">Oostkamp</option>
+                    <option value="oostrozebeke">Oostrozebeke</option>
+                    <option value="opglabbeek">Opglabbeek</option>
+                    <option value="oudenaarde">Oudenaarde</option>
+                    <option value="oudenburg">Oudenburg</option>
+                    <option value="oudergem">Oudergem</option>
+                    <option value="oud-turnhout">Oud-Turnhout</option>
+                    <option value="overijse">Overijse</option><!-- alt homepageurl voor maken-->
+                    <option value="overpelt">Overpelt</option>
+                    <option value="peer">Peer</option>
+                    <option value="pepingen">Pepingen</option> <!-- alt homepageurl voor maken-->
+                    <option value="pittem">Pittem</option>
+                    <option value="poperinge">Poperinge</option>
+                    <option value="putte">Putte</option>
+                    <option value="puurs">Puurs</option>
+                    <option value="ranst">Ranst</option>
+                    <option value="ravels">Ravels</option>
+                    <option value="retie">Retie</option>
+                    <option value="riemst">Riemst</option>
+                    <option value="rijkevorsel">Rijkevorsel</option>
+                    <option value="roeselare">Roeselare</option>
+                    <option value="ronse">Ronse</option>
+                    <option value="roosdaal">Roosdaal</option><!-- alt homepageurl voor maken-->
+                    <option value="rumst">Rumst</option>
+                    <option value="schaarbeek">Schaarbeek</option>
+                    <option value="schoten">Schoten</option>
+                    <option value="sijsele">Sijsele</option>
+                    <option value="sint-agatha-berchem">Sint-Agatha-Berchem</option>
+                    <option value="sint-amands">Sint-Amands</option>
+                    <option value="sint-gillis">Sint-Gillis</option>
+                    <option value="sint-gillis-waas">Sint-Gillis-Waas</option>
+                    <option value="sint-jans-molenbeek">Sint-Jans-Molenbeek</option>
+                    <option value="sint-joost-ten-node">Sint-Joost-Ten-Node</option>
+                    <option value="sint-katelijne-waver">Sint-Katelijne-Waver</option>
+                    <option value="sint-laureins">Sint-Laureins</option>
+                    <option value="sint-lievens-houtem">Sint-Lievens-Houtem</option>
+                    <option value="sint-martens-latem">Sint-Martens-Latem</option>
+                    <option value="sint-niklaas">Sint-Niklaas</option>
+                    <option value="sint-pieters-leeuw">Sint-Pieters-Leeuw</option><!-- alt homepageurl voor maken-->
+                    <option value="sint-pieters-woluwe">Sint-Pieters-Woluwe</option>
+                    <option value="sint-truiden">Sint-Truiden</option>
+                    <option value="stabroek">Stabroek</option>
+                    <option value="staden">Staden</option>
+                    <option value="stekene">Stekene</option>
+                    <option value="temse">Temse</option>
+                    <option value="ternat">Ternat</option><!-- alt homepageurl voor maken-->
+                    <option value="tervuren">Tervuren</option><!-- alt homepageurl voor maken-->
+                    <option value="tessenderlo">Tessenderlo</option>
+                    <option value="tielt">Tielt</option>
+                    <option value="tielt-winge">Tielt-Winge</option><!-- alt homepageurl voor maken-->
+                    <option value="tongeren">Tongeren</option>
+                    <option value="torhout">Torhout</option>
+                    <option value="turnhout">Turnhout</option>
+                    <option value="ukkel">Ukkel</option>
+                    <option value="veurne">Veurne</option>
+                    <option value="voeren">Voeren</option>
+                    <option value="vorselaar">Vorselaar</option>
+                    <option value="vorst">Vorst</option>
+                    <option value="vosselaar">Vosselaar</option>
+                    <option value="waarschoot">Waarschoot</option>
+                    <option value="waasmunster">Waasmunster</option>
+                    <option value="wachtebeke">Wachtebeke</option>
+                    <option value="waregem">Waregem</option>
+                    <option value="watermaal-bosvoorde">Watermaal-Bosvoorde</option>
+                    <option value="wellen">Wellen</option>
+                    <option value="wervik">Wervik</option>
+                    <option value="westerlo">Westerlo</option>
+                    <option value="westmalle">Westmalle</option>
+                    <option value="wetteren">Wetteren</option>
+                    <option value="wevelgem">Wevelgem</option>
+                    <option value="wichelen">Wichelen</option>
+                    <option value="wielsbeke">Wielsbeke</option>
+                    <option value="wijnegem">Wijnegem</option>
+                    <option value="willebroek">Willebroek</option>
+                    <option value="wingene">Wingene</option>
+                    <option value="wommelgem">Wommelgem</option>
+                    <option value="wortegem-petegem">Wortegem-Petegem</option>
+                    <option value="wuustwezel">Wuustwezel</option>
+                    <option value="zandhoven">Zandhoven</option>
+                    <option value="zedelgem">Zedelgem</option>
+                    <option value="zele">Zele</option>
+                    <option value="zelzate">Zelzate</option>
+                    <option value="zingem">Zingem</option>
+                    <option value="zoersel">Zoersel</option>
+                    <option value="zomergem">Zomergem</option>
+                    <option value="zonhoven">Zonhoven</option>
+                    <option value="zonnebeke">Zonnebeke</option>
+                    <option value="zottegem">Zottegem</option>
+                    <option value="zoutleeuw">Zoutleeuw</option><!-- alt homepageurl voor maken-->
+                    <option value="zulte">Zulte</option>
+                    <option value="zutendaal">Zutendaal</option>
+                    <option value="zwalm">Zwalm</option>
+                    <option value="zwevegem">Zwevegem</option>
+                    <option value="zwijndrecht">Zwijndrecht</option>
+                </select>
+                    <div class="item-content">
+                    <div class="item-media"><i class="icon icon-bib"></i></div>
+                    <div class="item-inner">
+                        <!-- Select label -->
+                    <div class="item-title">Bib</div>
+                    </div>
+                    </div>
+                </a>
+                </li>
+                </ul>
+                </form>
+                <div class="content-block-title">Mijn Bibliotheek</div>
+                <div class="content-block">
+                <p>Geef hier je logingegevens van Mijn Bibliotheek in als je wenst dat de app notificaties toont bij het naderen van het einde van de uitleentermijn van je geleende items.</p></div>
+                <div class="list-block">
+                  <ul>
+                  <li>
+                    <div class="item-content">
+                      <div class="item-media"><i class="icon icon-form-email"></i></div>
+                      <div class="item-inner"> 
+                        <div class="item-title label">E-mail</div>
+                        <div class="item-input">
+                          <input type="email" placeholder="E-mail">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                       <li>
+                    <div class="item-content">
+                      <div class="item-media"><i class="icon icon-form-password"></i></div>
+                      <div class="item-inner"> 
+                        <div class="item-title label">Wachtwoord</div>
+                        <div class="item-input">
+                          <input type="password" placeholder="Wachtwoord">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="content-block-title">Over deze App</div>
+                <div class="content-block">
+                    <p>Deze app is een hobbyproject en gaat niet officieel uit van de openbare bibliotheek. Er wordt geen technische ondersteuning geboden bij het gebruik van deze app en geen enkele garantie met betrekking tot het functioneren. Maar laat die waarschuwing je vooral niet tegen houden om de app te gebruiken, ik hoop dat ze handig en nuttig is voor je! Indien nodig kun je steeds terugvallen op de bibliotheekwebsite van je lokale bibliotheek.</p>
+                    <p>Ik ben een beginnend app-ontwikkelaar, de app zal uitgebreid en verbeterd worden naarmate mijn development-skills toenemen. Op de planning voor de verdere ontwikkeling van de app staat:</p>
+                        <ul><li>onthouden van je Mijn Bibliotheek login + automatisch inloggen</li>    
+                            <li>notificaties wanneer je uitleningen verlengd of teruggebracht moeten worden</li>
+                        </ul>
+    <p>Als je in een vrijgevige bui bent mag je altijd een <a href="https://www.paypal.me/KrisDeWinter?locale.x=nl_NL" class="external" target="_blank">kleine donatie</a> maken voor mijn 'ik wil een nieuwe computer'-fonds :-)</p>
+    <br>
+    <p><em>licentie: CC BY-NC-SA | Kris De Winter</em></p>
+                    <p><em>Gebouwd met behulp van <a href="http://www.idangero.us/framework7/" class="external" target="_blank">Framework7</a>           <br>Gebruikte resources: zoek, user en settings iconen van <a href="http://ionicons.com" class="external">http://ionicons.com/</a><br>Afbeeldingen van <a href="http://unsplash.com" class="external">Unsplash</a>.</em></p>
+              </div>
+              <div class="content-block-title">Vragen & Antwoorden</div>
+                <div class="list-block">
+                <ul>
+                <li class="accordion-item"><a href="#" class="item-content item-link">
+                    <div class="item-inner">
+                    <div class="item-title">Waarom staat mijn bibliotheek niet in de lijst?</div>
+                    </div></a>
+                    <div class="accordion-item-content">
+                    <div class="content-block">
+                    <p>Deze app ondersteunt enkel de webdiensten van bibliotheken die aangesloten zijn op de Vlaamse 'bibliotheekportalen'-catalogus en 'Mijn bibliotheek' dienst. Als jouw bib niet in de lijst staat voldoet ze wellicht niet aan één van deze voorwaarden.</p>
+                    </div>
+                    </div>
+                </li>
+                <li class="accordion-item"><a href="#" class="item-content item-link">
+                    <div class="item-inner">
+                    <div class="item-title">Waarom krijg ik van mijn bibliotheek geen bibnieuws te zien?</div>
+                    </div></a>
+                    <div class="accordion-item-content">
+                    <div class="content-block">
+                    <p>De nieuws-sectie van deze app gebruikt de rss-feed van de lokale bibliotheekwebsites. Als de website van jouw bib geen rss-feed aanbiedt dan krijg je dus geen lokaal bibnieuws te zien.</p>
+                    </div>
+                    </div>
+                </li>
+                <li class="accordion-item"><a href="#" class="item-content item-link">
+                    <div class="item-inner">
+                    <div class="item-title">Adressen en openingsuren bibliotheken</div>
+                    </div></a>
+                    <div class="accordion-item-content">
+                    <div class="content-block">
+                        <p>Alle contactgegevens van alle openbare bibliotheken vind je op <a href="http://www.bibliotheek.be/mijn-lokale-bib" class="external">bibliotheek.be</a>.</p>
+                    </div>
+                    </div>
+                </li>
+                <li class="accordion-item"><a href="#" class="item-content item-link">
+                    <div class="item-inner">
+                    <div class="item-title">De app werkt niet / niet zoals ik verwacht</div>
+                    </div></a>
+                    <div class="accordion-item-content">
+                    <div class="content-block">
+                    <p>Zoals hierboven aangegeven kan ik helaas geen ondersteuning bieden bij het gebruik van de app. Deze app is een hobbyproject en wordt gratis ter beschikking gesteld. Als de app niet functioneert zoals je verwacht kun je steeds gewoon via je browser naar de bibliotheekwebsite surfen.</p>
+                    </div>
+                    </div>
+                </li>
+                </ul>
+                </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Bottom Tabbar-->
+      <div class="toolbar tabbar tabbar-labels">
+        <div class="toolbar-inner"><a href="#view-1" class="tab-link active"> <i class="icon tabbar-bibnieuws"></i><span class="tabbar-label">Bibnieuws</span></a><a href="#view-2" class="tab-link"><i class="icon ion-ios-search-strong"></i><span class="tabbar-label">Catalogus</span></a><a href="#view-3" class="tab-link"> <i class="icon ion-person"><span class="badge bg-red">4</span></i><span class="tabbar-label">Mijn Bibliotheek</span></a><a href="#view-4" class="tab-link"> <i class="icon ion-ios-settings-strong"></i><span class="tabbar-label">Settings</span></a></div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/framework7.feeds.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
