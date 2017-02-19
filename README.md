@@ -11,4 +11,11 @@ Gebouwd op basis van [Framework7](https://github.com/nolimits4web/Framework7), a
 * reserveringen plaatsen
 * switchen van bib (werkt voorlopig enkel bij bibs uit Provincie Antwerpen)
 
+###To Do's
+* betere detailpagina's maken
+* implementatie van de Mijn Bibliotheek API (is nu gewoon een iframe), met als doel werkende notificaties (badge en meldingencentrum)
+* bug bij zoeken naar aanwinsten weghalen (werkt nu niet)
+
 ##DEMO
+
+![Demofilmpje van de app](https://github.com/kdw2060/bib-app/screenshots/demo_bib-app.webm)
