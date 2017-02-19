@@ -18,4 +18,4 @@ Gebouwd op basis van [Framework7](https://github.com/nolimits4web/Framework7), a
 
 ##DEMO
 
-![Demofilmpje van de app](https://github.com/kdw2060/bib-app/screenshots/demo_bib-app.webm)
+![Demofilmpje van de app](screenshots/demo_bib-app.png)
