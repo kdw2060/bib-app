@@ -17,5 +17,6 @@ Gebouwd op basis van [Framework7](https://github.com/nolimits4web/Framework7), a
 * bug bij zoeken naar aanwinsten weghalen (werkt nu niet)
 
 ##DEMO
+Klik op het screenshot voor een demofilmpje
 
-![Demofilmpje van de app](screenshots/demo_bib-app.png)
+![Demofilmpje van de app](screenshots/screenshot_demofilmpje.png)
