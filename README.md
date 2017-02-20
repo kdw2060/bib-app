@@ -13,8 +13,9 @@ Gebouwd op basis van [Framework7](https://github.com/nolimits4web/Framework7), a
 
 ###To Do's
 * betere detailpagina's maken
-* implementatie van de Mijn Bibliotheek API (is nu gewoon een iframe), met als doel werkende notificaties (badge en meldingencentrum)
+* implementatie van de Mijn Bibliotheek API (is nu gewoon een iframe) en een push-API, met als doel werkende notificaties (badge en meldingencentrum)
 * bug bij zoeken naar aanwinsten weghalen (werkt nu niet)
+* filters voor zoekresultaten toevoegen
 
 ##DEMO
 Klik op het screenshot voor een demofilmpje
