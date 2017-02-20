@@ -7,13 +7,13 @@ Gebouwd op basis van [Framework7](https://github.com/nolimits4web/Framework7), a
 ###Aanwezige functionaliteiten
 * bibnieuws (rss-feed bibwebsite)
 * zoeken in de catalogus
-* infinite scroll als er veel zoekresulaten zijn
+* infinite scroll als er veel zoekresultaten zijn
 * beschikbaarheidsinformatie tonen
 * reserveringen plaatsen
 * switchen van bib (werkt voorlopig enkel bij bibs uit Provincie Antwerpen)
 
 ###To Do's
-* betere detailpagina's maken
+* betere detailpagina's maken voor de bibliotheekrecords
 * implementatie van de Mijn Bibliotheek API (is nu gewoon een iframe) en een push-API, met als doel werkende notificaties (badge en meldingencentrum)
 * bug bij zoeken naar aanwinsten weghalen (werkt nu niet)
 * filters voor zoekresultaten toevoegen
