@@ -19,4 +19,4 @@ Gebouwd op basis van [Framework7](https://github.com/nolimits4web/Framework7), a
 ##DEMO
 Klik op het screenshot voor een demofilmpje
 
-![Demofilmpje van de app](screenshots/screenshot_demofilmpje.png)
+[![Demofilmpje van de app](screenshots/screenshot_demofilmpje.png)](https://kdw2060.github.io/bib-app/)
