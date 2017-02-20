@@ -5,6 +5,7 @@ Ontwerp van een app voor de Vlaamse openbare bibliotheken. De versie die hier on
 Gebouwd op basis van [Framework7](https://github.com/nolimits4web/Framework7), aangevuld met eigen javascript, php, css code. Maakt gebruik van de [Aquabrowser-catalogus API](http://www.cultuurconnect.be/diensten/bibliotheekportalen/api).
 
 ###Aanwezige functionaliteiten
+* bibnieuws (rss-feed bibwebsite)
 * zoeken in de catalogus
 * infinite scroll als er veel zoekresulaten zijn
 * beschikbaarheidsinformatie tonen
